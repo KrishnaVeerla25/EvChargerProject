@@ -1,0 +1,88 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0;
+  border: 5px;
+}
+
+.login-content {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.image-and-matter {
+  display: flex;
+  width: 100%;
+}
+
+.matter-container {
+  flex: 1;
+  padding: 10px;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.8); /* Form background color with some transparency */ 
+  
+}
+
+.image-container {
+  flex: 1;
+  background-image: url("https://img.freepik.com/premium-vector/call-center-purple-concept-with-people-scene-flat-cartoon-style-call-center-employee-advises_198565-3027.jpg?w=996");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.main_heading{
+  font-size: 20px;
+  color: crimson;
+  text-align:end;
+  padding-left: 40px;
+}
+.heading{
+  font-size: 20px;
+  text-align: end;
+  margin-left: 20px;
+}
+button{
+  background-color: cadetblue;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+p{
+  color: chocolate;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.country-code {
+  font-size: 18px;
+  margin-right: 5px;
+  background-color:  cadetblue;
+}
+.otp-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  z-index: 999;
+}
+
+.otp-popup h2 {
+  margin-top: 0;
+}
+
+.otp-popup p {
+  font-size: 18px;
+  margin: 10px 0;
+}
